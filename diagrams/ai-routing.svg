@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+<style>text{font-family:Arial,sans-serif;fill:#111827}.t{font-size:23px;font-weight:700}.s{font-size:15px}.b{fill:#f8fafc;stroke:#64748b;stroke-width:2}.a{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#m)}</style><defs><marker id="m" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#334155"/></marker></defs>
+<text x="45" y="45" class="t">AI Routing & Evaluation</text>
+<rect x="50" y="130" width="170" height="75" rx="10" class="b"/><text x="135" y="160" text-anchor="middle" class="t">PHP Filter</text><text x="135" y="186" text-anchor="middle" class="s">cheap + deterministic</text>
+<rect x="285" y="130" width="170" height="75" rx="10" class="b"/><text x="370" y="160" text-anchor="middle" class="t">Ollama</text><text x="370" y="186" text-anchor="middle" class="s">local classifier</text>
+<rect x="520" y="90" width="180" height="75" rx="10" class="b"/><text x="610" y="120" text-anchor="middle" class="t">DeepSeek</text><text x="610" y="146" text-anchor="middle" class="s">external analysis</text>
+<rect x="520" y="205" width="180" height="75" rx="10" class="b"/><text x="610" y="235" text-anchor="middle" class="t">TypeSafe/Jev</text><text x="610" y="261" text-anchor="middle" class="s">parallel evaluation</text>
+<rect x="780" y="130" width="170" height="75" rx="10" class="b"/><text x="865" y="160" text-anchor="middle" class="t">Validation</text><text x="865" y="186" text-anchor="middle" class="s">structured schema</text>
+<rect x="1010" y="130" width="150" height="75" rx="10" class="b"/><text x="1085" y="160" text-anchor="middle" class="t">Scoring</text><text x="1085" y="186" text-anchor="middle" class="s">versioned</text>
+<path d="M220 167H285M455 167L520 127M455 167L520 242M700 127L780 160M700 242L780 180M950 167H1010" class="a"/>
+<text x="285" y="335" class="s">Provider, model, prompt version, input hash, latency and structured output can be retained for comparison.</text>
+</svg>
