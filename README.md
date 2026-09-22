@@ -32,7 +32,13 @@ The system is designed around asynchronous processing, reproducibility, and cont
 - TypeSafe/Jev evaluation
 - Provider-independent LLM layer
 
+## Architecture
+
+![IdeaRadar system architecture](diagrams/system-architecture.svg)
+
 ## Pipeline
+
+![Ingestion pipeline](diagrams/ingestion-pipeline.svg)
 
 ```text
 External Sources
@@ -111,6 +117,8 @@ ai
 Collection has priority over optional enrichment and AI processing, so expensive downstream work cannot block acquisition of new source data.
 
 ## AI pipeline
+
+![AI routing and evaluation](diagrams/ai-routing.svg)
 
 AI is treated as a versioned processing stage rather than an opaque API call. Relevant analyses can retain provider, model, prompt version, input hash, structured output, token usage, latency, processing status, error information, and score version.
 
