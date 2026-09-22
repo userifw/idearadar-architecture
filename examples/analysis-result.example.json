@@ -1,0 +1,19 @@
+{
+  "provider": "example-provider",
+  "model": "example-model",
+  "prompt_version": "project-analysis-v3",
+  "input_hash": "sha256:example",
+  "status": "completed",
+  "classification": "investigate",
+  "confidence": 0.87,
+  "scores": {
+    "problem": 8,
+    "market": 6,
+    "differentiation": 7
+  },
+  "latency_ms": 842,
+  "tokens": {
+    "input": 1280,
+    "output": 410
+  }
+}
